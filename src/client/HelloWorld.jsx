@@ -13,6 +13,6 @@ const AppContainer = styled.div`
   background: linear-gradient(20deg, rgb(219, 112, 147), #daa357);
 `;
 
-const App = () => <AppContainer>Hello, World!</AppContainer>;
+const HelloWorld = () => <AppContainer>Hello, World!</AppContainer>;
 
-export default App;
+export default HelloWorld;
