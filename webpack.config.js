@@ -3,7 +3,7 @@ const nodeExternals = require('webpack-node-externals');
 const path = require('path');
 
 module.exports = {
-  entry: './src/server.js',
+  entry: './src/server.jsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'server.js',
@@ -21,9 +21,17 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
         loader: 'babel-loader',
+        query:
+          {
+            presets: ['react'],
+          },
       },
     ],
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
 };
