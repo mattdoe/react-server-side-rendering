@@ -22,6 +22,7 @@
     "express": "^4.14.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-router-dom": "^4.3.1",
     "styled-components": "^2.2.4"
   },
   "name": "react-server-side-rendering",
