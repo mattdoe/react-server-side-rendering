@@ -16,5 +16,20 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "styled-components": "^2.2.4"
-  }
+  },
+  "name": "react-server-side-rendering",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattdoe/react-server-side-rendering.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattdoe/react-server-side-rendering/issues"
+  },
+  "homepage": "https://github.com/mattdoe/react-server-side-rendering#readme",
+  "description": ""
 }
